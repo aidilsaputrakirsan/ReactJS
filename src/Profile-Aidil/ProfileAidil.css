@@ -1,0 +1,173 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  text-align: left;
+}
+
+.info h3 {
+  margin-bottom: 10px;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info li {
+  width: 100%;
+  margin-bottom: 10px;
+  /* TODO: Add bootstrap classes */
+}
+
+/* Navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  }
+  
+  nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  }
+  
+  /* Section tentang riwayat pendidikan */
+  .education {
+  padding: 2rem;
+  }
+  
+  .education h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  }
+  
+  .education .timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  }
+  
+  .education .timeline .icon {
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  }
+  
+  .education .timeline .info {
+  padding-left: 2rem;
+  width: 60%;
+  }
+  
+  .education .timeline .info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  }
+  
+  .education .timeline .info p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 0;
+  }
+  
+  /* Section tentang pengalaman kerja */
+  .experience {
+  padding: 2rem;
+  }
+  
+  .experience h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  }
+  
+  .experience .timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  }
+  
+  .experience .timeline .icon {
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  }
+  
+  .experience .timeline .info {
+  padding-left: 2rem;
+  width: 60%;
+  }
+  
+  .experience .timeline .info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  }
+  
+  .experience .timeline .info p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 0;
+  }
+  
+  /* Section tentang keahlian */
+  .skills {
+  padding: 2rem;
+  }
+  
+  .skills h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  }
+  
+  .skills .list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  }
