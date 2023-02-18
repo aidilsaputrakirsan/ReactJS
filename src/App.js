@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import Navigation from "./Navigation";
+//import Navigation from "./Navigation";
 import Education from "./Education";
 import WorkExperience from "./WorkExperience";
 import Skills from "./Skills";
